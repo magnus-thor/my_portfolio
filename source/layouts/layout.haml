@@ -1,0 +1,31 @@
+!!!
+%html
+  %head
+    %meta{ content: 'text/html; charset=UTF-8', 'http-equiv': 'Content-Type' }
+    %meta{ charset: 'utf-8' }
+    %meta{ content: 'ie=edge',
+    'http-equiv': 'x-ua-compatible' }
+    %meta{ content: 'width=device-width,
+    initial-scale=1, shrink-to-fit=no',
+    name: 'viewport' }
+    / Use the title from a page's frontmatter if it has one
+    %title= current_page.data.title || 'Middleman'
+    -# = stylesheet_link_tag 'site'
+    = javascript_include_tag 'site'
+    %link{ href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+    rel: 'stylesheet' }
+    %link{ href: 'stylesheets/materialize.css',
+    media: 'screen,projection',
+    rel: 'stylesheet',
+    type: 'text/css' }
+    %link{ href: 'stylesheets/mycss.css',
+    media: 'screen,projection',
+    rel: 'stylesheet',
+    type: 'text/css' }
+  %body
+    = partial 'partials/header'
+    = yield
+    = partial 'partials/footer'
+    %script{ src: "https://code.jquery.com/jquery-3.2.1.min.js",
+    type: "text/javascript" }
+    %script{ src: 'javascripts/materialize.js', type: 'text/javascript'}
