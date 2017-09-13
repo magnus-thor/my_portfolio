@@ -2,4 +2,20 @@ body {
   background-color: blue;
   font: 100% Helvetica, sans-serif; }
 
+.wrapper {
+  display: grid;
+  grid-row-gap: 10px; }
+
+.header {
+  grid-row: 1; }
+
+.main {
+  grid-row: 2; }
+
+.sidebar {
+  grid-row: 3; }
+
+.footer {
+  grid-row: 4; }
+
 /*# sourceMappingURL=mycss.css.map */

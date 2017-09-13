@@ -1,5 +1,43 @@
 $font-stack: Helvetica, sans-serif;
+
 body {
   background-color: blue;
   font: 100% $font-stack;
+  // display: grid;
+  // grid-gap: 1rem;
+  // grid-template-columns: 2.5fr 5fr 1fr;
+  // grid-template-rows: 1fr 3.5fr 1fr;
+  // grid-template-areas:
+  // "header header header"
+  // "sidebar main main"
+  // "footer footer footer";
+}
+
+.wrapper {
+  display: grid;
+  grid-row-gap: 10px;
+  // grid-template-areas:
+  //     "header",
+  //     "sidebar"
+  //     "content"
+  //     "footer";
+}
+
+.header {
+  // grid-area: header;
+  grid-row: 1;
+}
+
+.main {
+  // grid-area: main
+  grid-row: 2;
+}
+
+.sidebar {
+  grid-row: 3;
+}
+
+.footer {
+  // grid-area: footer;
+  grid-row: 4;
 }
