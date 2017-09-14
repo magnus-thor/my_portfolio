@@ -1,17 +1,16 @@
 // This is where it all goes :)
 $(document).ready(function() {
-  $('.hide_show').hide();
+  $('#myimage').hide();
+
+   $(".button-collapse").sideNav({
+     menuWidth: 200,
+     closeOnClick: true
+   });
 
   $('ul a').click(function() {
-    description = $(this).data('show');
-    $('.description desc').text(description);
-  })
-
-  //
-  // $('ul a').click(function() {
-  //   $('p').hide();
-  //   $('.hide_show')
-  //   $(this.id).show();
-  //   console.log(this.id);
-  // })
+    text = $(this).data('show');
+    picture = $(this).data('picture');
+    $('.description desc').text(text);
+    // $("#myimage").show().attr("src", picture)
+  });
 });

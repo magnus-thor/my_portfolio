@@ -1,6 +1,14 @@
-.projects
-  - data.projects.each do |project|
-    %mylist
-      %ul
-        %a{ href: "javascript:void(0)", id: "#{project[:name]}", 'data-show': "#{project[:description]}"}
-          %h5= project[:name]
+- if current_path == 'portfolio.html'
+  .projects
+    - data.projects.each do |project|
+      %mylist
+        %ul
+          %a{ href: "javascript:void(0)", id: "#{project[:name]}", 'data-show': "#{project[:description]}", 'data-picture': "#{project[:picture]}"}
+            %h5= project[:name]
+- elsif current_path == 'about.html'
+  .job
+    - data.jobs.each do |job|
+      .mylist
+        %ul
+          %a{ href: "javascript:void(0)", id: "#{job[:job]}", 'data-show': "#{job[:description]}"}
+            %h5= job[:job]

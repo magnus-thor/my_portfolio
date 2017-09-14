@@ -1,3 +1,19 @@
-.container.center
-  %h1 Magnús Þór Ársælsson
-  %h2 Portfolio
+%nav
+  .nav-wrapper
+    %a.brand-logo.center{ href: "index.html"} Magnús Þór Ársælsson
+    %a.button-collapse{"data-activates": "mobile-demo", href: "#"}
+      %i.material-icons menu
+    %ul.right.hide-on-med-and-down
+      %li
+        %a{ href: "index.html" } Home
+      %li
+        %a{ href: "about.html"} About Me
+      %li
+        %a{ href: "portfolio.html"} Portfolio
+    %ul#mobile-demo.side-nav
+      %li
+        %a{ href: "index.html" } Home
+      %li
+        %a{ href: "about.html"} About Me
+      %li
+        %a{ href: "portfolio.html"} Portfolio
