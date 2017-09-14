@@ -28,17 +28,22 @@ body {
 
 @media (min-width: 550px) {
   .wrapper {
-    grid-template-columns: 1fr 5fr; }
+    grid-template-columns: 1fr 3fr 1fr; }
 
   .header {
-    grid-column: 1 / 3;
+    grid-column: 1 / 5;
     grid-row: 1;
     max-height: 180px; }
 
   .main {
     grid-column: 2 / 3;
     grid-row: 2;
-    min-height: 710px; }
+    min-height: 710px;
+    padding-top: 100px;
+    background-color: #7E8187; }
+
+  .right_sidebar {
+    background-color: #7E8187; }
 
   .sidebar {
     grid-column: 1;
@@ -47,7 +52,7 @@ body {
     background-color: #4D412F; }
 
   .footer {
-    grid-column: 1 / 3;
+    grid-column: 1 / 5;
     grid-row: 3;
     max-height: 100px; } }
 @media only screen and (min-width: 550px) {
