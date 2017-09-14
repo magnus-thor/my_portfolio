@@ -1,26 +1,22 @@
 $font-stack: Helvetica, sans-serif;
+$main-color: #7E8187;
+$secondary-color: #212733;
+$sidebar-color: #4D412F;
 
 body {
-  background: url('background/maintenance-1151314_960_720.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font: 100% $font-stack;
 }
 
 .nav-wrapper{
- background-color: black;
+ background-color: $secondary-color;
 }
 
 .page-footer {
-  background-color: black;
+  background-color: $secondary-color;
 }
 
 .wrapper {
   display: grid;
-  grid-row-gap: 10px;
-
 }
 
 .header {
@@ -30,10 +26,12 @@ body {
 .main {
   grid-row: 3;
   min-height: 300px;
+  background-color: $main-color;
 }
 
 .sidebar {
   grid-row: 2;
+  background-color: $sidebar-color;
 }
 
 .footer {
@@ -44,8 +42,6 @@ body {
 @media (min-width: 550px) {
   .wrapper {
     grid-template-columns: 1fr 5fr;
-    grid-column-gap: 2em;
-    grid-row-gap: 10px;
   }
   .header {
     grid-column: 1 / 3;
@@ -55,12 +51,14 @@ body {
   .main {
     grid-column: 2 / 3;
     grid-row: 2;
-    min-height: 700px;
+    min-height: 710px;
   }
+  
   .sidebar {
     grid-column: 1;
     grid-row: 2;
     text-align: center;
+    background-color: $sidebar-color;
   }
   .footer {
     grid-column: 1 / 3;
@@ -88,7 +86,7 @@ body {
 }
 
 h5 {
-  color: #3f51b5;
+  color: black;
 }
 
 .description {
