@@ -1,0 +1,61 @@
+// first edition
+$font-stack: Helvetica, sans-serif;
+
+body {
+  background-color: blue;
+  font: 100% $font-stack;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 2.5fr 5fr 1fr;
+  grid-template-rows: 1fr 3.5fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "sidebar main main"
+  "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+
+// second edition - for narrow screens
+$font-stack: Helvetica, sans-serif;
+
+body {
+  background-color: blue;
+  font: 100% $font-stack;
+}
+
+.wrapper {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.main {
+  grid-row: 2;
+}
+
+.sidebar {
+  grid-row: 3;
+}
+
+.footer {
+  grid-row: 4;
+}

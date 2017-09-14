@@ -1,5 +1,11 @@
 - name: My First Website
   description: Simple HTML5 site I've build during the PrepCourse
 
-- name: FizzBuzz
+- name: FizzBuzz - Ruby
   description: My first Test driven ruby project
+
+- name: FizzBuzz - javascript
+  description: Javascript version of FizzBuzz challenge
+
+- name: Checkout challenge
+  description: Checkout Challenge is about an on-line marketplace where you can control the inventory and discount.
