@@ -42,5 +42,7 @@ body {
   .footer {
     grid-column: 1 / 3;
     grid-row: 3; } }
+.description {
+  font-size: 200%; }
 
 /*# sourceMappingURL=mycss.css.map */

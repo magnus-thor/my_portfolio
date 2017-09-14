@@ -2,5 +2,5 @@
   - data.projects.each do |project|
     %mylist
       %ul
-        %a{ href: "javascript:void(0)", id: "#{project[:name]}"}
+        %a{ href: "javascript:void(0)", id: "#{project[:name]}", 'data-show': "#{project[:description]}"}
           %h5= project[:name]
