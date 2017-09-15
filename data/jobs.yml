@@ -1,8 +1,14 @@
 - job: Fisherman at Norliner
-  description: Will fill this out when I have all info.
+  description: Autoliner in Norway. Was there for 7 months from desember 2016 to June 2017.
 
 - job: Fisherman at Tjaldur SH-270
-  description: Autoliner in Iceland
+  description: Autoliner in Iceland. Was there for 4 years from october 2012 to november 2016.
 
 - job: Fisherman at Lilja SH-740
-  description: 
+  description: A small liner in Iceland. Was there for 4 years from November 2008 to October 2012.
+
+- job: Fisherman at Faxaborg SH-207
+  description: Autoliner in Iceland. Was there from Januar 1998 to November 2008.
+
+- job: Fisherman at Snæfell SH-740
+  description: A trawler that spent most of its time in the Flemish cap and few months in Namibia. Was there from August 1996 to Desember 1997.

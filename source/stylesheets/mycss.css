@@ -64,12 +64,14 @@ body {
     height: 80px;
     line-height: 40px; } }
 .side-nav {
-  background-color: orange; }
+  background-color: #362727; }
 
 h5 {
   color: black; }
 
 .description {
-  font-size: 200%; }
+  font-size: 150%; }
+  .description a {
+    color: #FFCB7C; }
 
 /*# sourceMappingURL=mycss.css.map */

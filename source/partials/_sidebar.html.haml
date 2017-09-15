@@ -3,7 +3,12 @@
     - data.projects.each do |project|
       %mylist
         %ul
-          %a{ href: "javascript:void(0)", id: "#{project[:name]}", 'data-show': "#{project[:description]}", 'data-picture': "#{project[:picture]}"}
+          %a{ href: "javascript:void(0)",
+          id: "#{project[:name]}",
+          'data-show': "#{project[:description]}",
+          'data-link': "#{project[:link]}",
+          'data-weblink': "#{project[:weblink]}",
+          'data-logo': "#{project[:logo]}"}
             %h5= project[:name]
 - elsif current_path == 'about.html'
   .job

@@ -1,15 +1,39 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
-  picture: images/placeholder.png
+- name: SlowFood online
+  link: https://github.com/magnus-thor/slow_food_sinatra_august_17
+  weblink: https://spice-it-up.herokuapp.com/
+  description: This is the first challenge were we had to work as a team. We had to create an online restaurant were a user can order food and a owner can access all his information bout his restaurant and clients in a database. We encountered alot of new things in this challenge such as Entity Relationship Diagram (ERD), Structured Query Language (SQL), Object-relational mapping (ORM) and Behaviour Driven Development (BDD).
 
-- name: FizzBuzz - Ruby
-  description: My first Test driven ruby project
-  picture: /images/placeholder.png
-
-- name: FizzBuzz - javascript
-  description: Javascript version of FizzBuzz challenge
-  picture: images/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg
+- name: FizzBuzz - Javascript
+  link: https://github.com/magnus-thor/fizz_buzz_js
+  weblink: https://magnus-thor.github.io/fizz_buzz_js/
+  description: Javascript version of FizzBuzz challenge. A simple graphical web ui of the fizzbuzz program, the user enters a number and there is counter that goes  from 1 to the users input number and substitutes fizz for 3, buzz for 5 and fizzbuzz for 15.
 
 - name: Checkout challenge
-  description: Checkout Challenge is about an on-line marketplace where you can control the inventory and discount.
-  picture: images/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg
+  link: https://github.com/magnus-thor/BMI-Challenge
+  weblink: none
+  description: Checkout Challenge was an extra challenge we got in week 2 and is about an on-line marketplace where you can control the inventory and discount.
+
+- name : BMI Challenge
+  link: https://github.com/magnus-thor/BMI-Challenge
+  weblink: https://magnus-thor.github.io/bmi-challenge/
+  description: Body Mass Index (BMI) is a simple tool that is generally used to estimate the total amount of body fat. This higly unscientific BMI is written in javascript with a hint of jquery to improve functionality of the program. The user can enter his height and weight in the metric method or the imperial method.
+
+- name: The Library challenge.
+  link: https://github.com/magnus-thor/library-challenge
+  weblink: none
+  description: The first weekend challenge at Craft Academy was to build a library where a user could borrow books and keep track of when they were due to be returned.
+
+- name: ATM challenge
+  link: https://github.com/magnus-thor/Atm
+  weblink: none
+  description: The object of the challenge was to build an ATM that a client could withdraw funds from an atm. Its the first challenge I encountered classes in ruby. And we learned how to use instance doubles in rspec.
+
+- name: FizzBuzz - Ruby
+  link: https://github.com/magnus-thor/fizz_buzz
+  weblink: none
+  description: My first encounter with the fizzbuzz challenge. Its a simple program written in Ruby that you give a number and it returns either the number back or substitutes fizz for 3, buzz for 5 and fizzbuzz for 15.
+
+- name: My First Website
+  link: https://github.com/magnus-thor/magnus-thor.github.io/blob/master/index.html
+  weblink: none
+  description: The first progam I did when attending Craft academy. Its a few lines of html with some minimalistic styling.
