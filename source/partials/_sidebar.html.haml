@@ -1,4 +1,7 @@
-- if current_path == 'portfolio.html'
+- if current_path == 'index.html'
+  .mypic
+    %img{ src: "images/Mynd-Maggi.png"}
+- elsif current_path == 'portfolio.html'
   .projects
     - data.projects.each do |project|
       %mylist

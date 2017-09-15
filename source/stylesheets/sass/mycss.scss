@@ -15,8 +15,8 @@ body {
   background-color: $secondary-color;
 
   img {
-    width: 25px;
-    height: 25px;;
+    width: 30px;
+    height: 30px;;
   }
 }
 
@@ -37,6 +37,14 @@ body {
 .sidebar {
   grid-row: 2;
   background-color: $sidebar-color;
+
+  img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer {
@@ -70,6 +78,11 @@ body {
     grid-row: 2;
     text-align: center;
     background-color: $sidebar-color;
+
+    img {
+      width: 250px;
+      height: 200px;
+    }
   }
   .footer {
     grid-column: 1 / 5;
