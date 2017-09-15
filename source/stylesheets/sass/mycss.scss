@@ -13,6 +13,11 @@ body {
 
 .page-footer {
   background-color: $secondary-color;
+
+  img {
+    width: 25px;
+    height: 25px;;
+  }
 }
 
 .wrapper {
@@ -51,7 +56,7 @@ body {
   .main {
     grid-column: 2 / 3;
     grid-row: 2;
-    min-height: 710px;
+    min-height: 760px;
     padding-top: 100px;
     background-color: $main-color;
   }
@@ -88,7 +93,7 @@ body {
 }
 
 .side-nav {
-  background-color: #362727;
+  background-color: #D58100;
 }
 
 h5 {
