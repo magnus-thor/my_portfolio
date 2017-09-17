@@ -1,3 +1,8 @@
 ---
 title: Magnús Þór Ársælsson
 ---
+
+- data.bio.each do |job|
+  .mylist
+    %ul
+      %p= job[:description]

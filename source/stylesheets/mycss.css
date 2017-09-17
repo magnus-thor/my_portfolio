@@ -1,5 +1,8 @@
+@font-face {
+  font-family: myFont;
+  src: url("background/Rubik-Light.ttf"); }
 body {
-  font: 100% Helvetica, sans-serif; }
+  font-family: myFont; }
 
 .nav-wrapper {
   background-color: #212733; }
@@ -39,6 +42,14 @@ body {
   grid-row: 5;
   max-height: 10px; }
 
+.quotes {
+  border-style: outset;
+  border-width: 5px;
+  margin: 10px;
+  padding: 10px; }
+  .quotes a {
+    color: darkblue; }
+
 @media (min-width: 550px) {
   .wrapper {
     grid-template-columns: 1fr 3fr 1fr; }
@@ -47,6 +58,11 @@ body {
     grid-column: 1 / 5;
     grid-row: 1;
     max-height: 180px; }
+    .header .calogo {
+      width: 10px;
+      height: 10px;
+      padding-left: 20px;
+      padding-top: 22px; }
 
   .main {
     grid-column: 2 / 3;
@@ -54,13 +70,15 @@ body {
     min-height: 760px;
     padding-top: 100px;
     background-color: #7E8187; }
+    .main p {
+      padding: 40px;
+      font-size: 150%;
+      font-family: myFont; }
 
   .right_sidebar {
     grid-column: 3;
-    background-color: #7E8187;
-    border: 20px;
-    padding: 10px;
-    margin: 10px; }
+    grid-row: 2;
+    background-color: #7E8187; }
 
   .sidebar {
     grid-column: 1;
