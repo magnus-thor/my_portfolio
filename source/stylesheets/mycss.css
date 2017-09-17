@@ -31,8 +31,12 @@ body {
     margin-left: auto;
     margin-right: auto; }
 
-.footer {
+.right_sidebar {
   grid-row: 4;
+  background-color: #7E8187; }
+
+.footer {
+  grid-row: 5;
   max-height: 10px; }
 
 @media (min-width: 550px) {
@@ -52,7 +56,11 @@ body {
     background-color: #7E8187; }
 
   .right_sidebar {
-    background-color: #7E8187; }
+    grid-column: 3;
+    background-color: #7E8187;
+    border: 20px;
+    padding: 10px;
+    margin: 10px; }
 
   .sidebar {
     grid-column: 1;

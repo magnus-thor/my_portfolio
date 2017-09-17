@@ -135,6 +135,9 @@ GEM
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
     sass (3.4.25)
+    scss-lint (0.38.0)
+      rainbow (~> 2.0)
+      sass (~> 3.4.1)
     servolux (0.13.0)
     sysexits (1.2.0)
     temple (0.8.0)
@@ -157,6 +160,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-livereload
   rspec
+  scss-lint
   tzinfo-data
   wdm (~> 0.1)
 

@@ -1,6 +1,14 @@
 !!!
 %html
   %head
+    / Global Site Tag (gtag.js) - Google Analytics
+    %script{ async: "", src: "https://www.googletagmanager.com/gtag/js?id=UA-106547505-1"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-106547505-1');
+
     %meta{ content: 'text/html; charset=UTF-8', 'http-equiv': 'Content-Type' }
     %meta{ charset: 'utf-8' }
     %meta{ content: 'ie=edge',
@@ -27,6 +35,7 @@
       .main
         = yield
       .right_sidebar
+        = partial 'partials/right_sidebar'
       .sidebar
         = partial 'partials/sidebar'
       .footer

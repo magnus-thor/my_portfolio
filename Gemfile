@@ -8,3 +8,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'haml_lint', require: false
 gem 'rspec'
 gem 'materialize-sass'
+gem 'scss-lint'

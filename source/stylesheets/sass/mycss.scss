@@ -47,8 +47,13 @@ body {
   }
 }
 
-.footer {
+.right_sidebar {
   grid-row: 4;
+  background-color: $main-color;
+}
+
+.footer {
+  grid-row: 5;
   max-height: 10px;
 }
 
@@ -70,7 +75,11 @@ body {
   }
 
   .right_sidebar {
+    grid-column: 3;
     background-color: $main-color;
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
   }
 
   .sidebar {
