@@ -1,6 +1,6 @@
 - name: Kimchistan - Frontend
   link: https://github.com/magnus-thor/Kimchistan-FrontEnd
-  weblink: kimchistan-dev.surge.sh
+  weblink: https://kimchistan-dev.surge.sh/
   description: This is the final project for the August 2017 cohort.
 
                We were approched by a client who wanted a website for a restaurant, where customers can order food online and pick it up at the restaurant after 30 minutes.
@@ -10,7 +10,8 @@
 - name: Kimchistan - Backend
   link: https://github.com/magnus-thor/Kimchistan-BackEnd
   weblink: https://kimchistan-api.herokuapp.com/
-  description:
+  description: This is the final project for the August 2017 cohort. We were approched by a client who wanted a website for a restaurant, where customers can order food online and pick it up at the restaurant after 30 minutes. The backend was create with rails api only.
+
 
 - name: Ufoods online - Mobile App
   link: https://github.com/magnus-thor/ufood_ionic
