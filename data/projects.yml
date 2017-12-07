@@ -1,7 +1,46 @@
+- name: Kimchistan - Frontend
+  link: https://github.com/magnus-thor/Kimchistan-FrontEnd
+  weblink: kimchistan-dev.surge.sh
+  description: This is the final project for the August 2017 cohort.
+
+               We were approched by a client who wanted a website for a restaurant, where customers can order food online and pick it up at the restaurant after 30 minutes.
+
+               The frontend for the project was generated with Angular CLI version 1.5.0. In the first release we put focus on the basic requirement for a functional website, while still aiming to fit the clients conditions regarding the styling. A customer can visit the website and get restaurant information, choose a dish with a specific ingredient, and pay for the order. After an order is placed and paid for, the kitchen receives an email with pick up and order details.
+
+- name: Kimchistan - Backend
+  link: https://github.com/magnus-thor/Kimchistan-BackEnd
+  weblink: https://kimchistan-api.herokuapp.com/
+  description:
+
+- name: Ufoods online - Mobile App
+  link: https://github.com/magnus-thor/ufood_ionic
+  weblink:
+  description: We had setup rails api endpoints for the Ufoods restaurants system and setup a mobile app with Ionic. We also moved all the storage of images to AWS.
+
+- name: Ufoods
+  link: https://github.com/magnus-thor/u_food
+  weblink: https://ufoods.herokuapp.com/
+  description: An app which allows users to order food from various restaurants nearby. You will see restaurants nearby as markers on a map, and you may choose what range you want to search for restaurants in. You can choose a restaurant category, then a restaurant, then a menu, and then you can view different dishes. You sign up by creating an account with an email and password. After logging in you will be allowed to add dishes to order. On checkout you can choose delivery and pay with Stripe.
+
+- name: Laundry Time
+  link: https://github.com/magnus-thor/laundry_time
+  weblink: https://laundrytime.herokuapp.com/
+  description: Our mid course project where we had to come with an idea and implement it ourself. Due to lazyness of one our cohorts members we created a site where you could book laundry time. 
+
+- name: Legacy Code
+  link: https://github.com/magnus-thor/rails_messaging_august_17
+  weblink: none
+  description: We got a ready app which had some minor bugs. Our challenge was to write acceptance and unit tests for the progam.
+
+- name: Article
+  link: https://github.com/magnus-thor/rails_bdd
+  weblink: none
+  description: My first encounter with rails. A small blog site with articles and comments.
+
 - name: SlowFood online
   link: https://github.com/magnus-thor/slow_food_sinatra_august_17
   weblink: https://spice-it-up.herokuapp.com/
-  description: This is the first challenge were we had to work as a team. We had to create an online restaurant were a user can order food and a owner can access all his information bout his restaurant and clients in a database. We encountered alot of new things in this challenge such as Entity Relationship Diagram (ERD), Structured Query Language (SQL), Object-relational mapping (ORM) and Behaviour Driven Development (BDD).
+  description: This is the first challenge were we had to work as a team. We had to create an online restaurant were a user can order food and a owner can access all his information about his restaurant and clients in a database. We encountered alot of new things in this challenge such as Entity Relationship Diagram (ERD), Structured Query Language (SQL), Object-relational mapping (ORM) and Behaviour Driven Development (BDD).
 
 - name: FizzBuzz - Javascript
   link: https://github.com/magnus-thor/fizz_buzz_js
