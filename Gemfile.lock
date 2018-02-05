@@ -12,6 +12,15 @@ GEM
     autoprefixer-rails (7.1.4)
       execjs
     backports (3.8.0)
+    byebug (9.1.0)
+    capybara (2.17.0)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (>= 2.0, < 4.0)
+    coderay (1.1.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -46,12 +55,15 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     kramdown (1.15.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     materialize-sass (0.100.2)
       sass (~> 3.3)
     memoist (0.16.0)
+    method_source (0.9.0)
     middleman (4.2.1)
       coffee-script (~> 2.2)
       compass-import-once (= 1.0.5)
@@ -92,7 +104,11 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    mini_mime (1.0.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -103,10 +119,18 @@ GEM
     parser (2.4.0.0)
       ast (~> 2.2)
     powerpack (0.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.5.1)
+      byebug (~> 9.1)
+      pry (~> 0.10)
     public_suffix (3.0.0)
     rack (2.0.3)
     rack-livereload (0.3.16)
       rack
+    rack-test (0.8.2)
+      rack (>= 1.0, < 3)
     rainbow (2.2.2)
       rake
     rake (12.1.0)
@@ -135,9 +159,6 @@ GEM
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
     sass (3.4.25)
-    scss-lint (0.38.0)
-      rainbow (~> 2.0)
-      sass (~> 3.4.1)
     servolux (0.13.0)
     sysexits (1.2.0)
     temple (0.8.0)
@@ -149,20 +170,25 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.3.0)
+    xpath (3.0.0)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  capybara
   haml_lint
+  launchy
   materialize-sass
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-livereload
+  pry
+  pry-byebug
   rspec
-  scss-lint
   tzinfo-data
   wdm (~> 0.1)
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.1

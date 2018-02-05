@@ -1,4 +1,4 @@
-describe 'index.html' do
+describe 'Index Page', type: :feature do
   it 'displays project list' do
     expect(page).to have_css '.projects'
     within '.projects' do
